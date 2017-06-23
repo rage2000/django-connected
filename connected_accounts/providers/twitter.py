@@ -41,7 +41,7 @@ class TwitterProvider(OAuthProvider):
     name = _('Twitter')
     account_class = TwitterAccount
 
-    authorization_url = 'https://api.twitter.com/oauth/authenticate'
+    authorization_url = 'https://api.twitter.com/oauth/authorize'
     access_token_url = 'https://api.twitter.com/oauth/access_token'
     request_token_url = 'https://api.twitter.com/oauth/request_token'
     profile_url = 'https://api.twitter.com/1.1/account/verify_credentials.json'
